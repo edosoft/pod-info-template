@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "pod-info-template"
+  annotations:
+    "humanitec.com/orgId": "laude-canarias"
+    "humanitec.com/appId": "pod-info-template"
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
